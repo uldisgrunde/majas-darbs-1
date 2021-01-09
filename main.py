@@ -22,7 +22,7 @@ def klase(kabID):
     return render_template("pieteikt.html")
 
 @app.route('/klase/<kabID>', methods=['GET'])
-def pieteikt(kabID):
+def pieteiktID(kabID):
     # Noklusēta vērtība, ja viela netiks atrasta
     viela = "Kabinets ar ID {} neeksistē".format(kabID)
     
@@ -47,11 +47,11 @@ def klases():
 def tehnika():
     return render_template("tehnika.html")
 
-@app.route('tehnika/pievienot',methods=['POST'])
+@app.route('/tehnika/pievienot')
 def pievienot():
     return render_template("pievienot.html")
 
-@app.route('tehnika/problema')
+@app.route('/tehnika/problema')
 def problema():
     return render_template("problema.html")
 
