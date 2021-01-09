@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Skolas datortehnikas uzskaite- pievienot datortehniku</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel='stylesheet' href='static/css/style.css'>
+		<script src='static/js/main.js'></script>
+	</head>
+	<body>
+		<script>
+			head("Jaunas tehnikas ievade","/admin/tehnika");
+		</script>
+    <!-- -->
+
+        <!--Izvēlēties ievadāmo tehniku:-->
+        <div class="flex">
+            <div class="col">
+                <label for="tehnika">Datortehnikas veids:</label>
+            </div>
+            <div class="col">
+                <select name="tehnika" id="tehnika" onchange="nomainiLaukus()">
+                    <option value="dators">Dators</option>
+                    <option value="monitors">Monitors</option>
+                    <option value="printeris">Printeris</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- <button class=button id=ievads onclick="nomainiLaukus()">Izvēlies</button>
+ -->        
+        <br><br>
+		<hr></hr>
+        <!---->
+             <p id="datortehnika">Izvēlētā tehnika</p>
+            <button class="nosaukumi" for="dati1"id="nos1">parametrs</button>
+            <input class="dati" type="text" id="dati1"><br>
+            <button class="nosaukumi" for="dati1"id="nos2">parametrs</button>
+            <input class="dati" type="text" id="dati2"><br>
+            <button class="nosaukumi" for="dati1"id="nos3">parametrs</button>
+            <input class="dati" type="text" id="dati3"><br>
+            <button class="nosaukumi" for="dati1"id="nos4">parametrs</button>
+            <input class="dati" type="text" id="dati4"><br>    
+            <br>
+			<hr></hr>     
+            <input type="button" id="saglabat" value="Saglabāt"> 
+    <!-- -->
+    <script>
+        foot();
+    </script>
+</body>
+
+</html>

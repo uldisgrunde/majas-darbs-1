@@ -1,0 +1,32 @@
+{
+	"dati": [
+		{
+			"id": "1",
+			"name": "Dators"
+		},
+		{
+			"id": "2",
+			"name": "Skandas"
+		},
+		{
+			"id": "3",
+			"name": "Projektors"
+		},
+		{
+			"id": "4",
+			"name": "Kopētajs"
+		},
+		{
+			"id": "5",
+			"name": "Skeneris"
+		},
+		{
+			"id": "6",
+			"name": "Printeris"
+		},
+		{
+			"id": "7",
+			"name": "Interaktīvā tāfele"
+		}
+	]
+}

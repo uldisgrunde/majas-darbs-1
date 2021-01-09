@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <title>Klasēs pieejamā datortehnika-visu kabinetu tehnika</title>
+        <link rel='stylesheet' href='static/css/style.css'>
+        <script src='static/js/main.js'></script>
+	</head>
+	<body>
+		<script>
+			head("Klasēs pieejamā tehnika","/");
+		</script>
+    <!-- -->
+		<br>
+        <div class="flex"> <!--saliek blakus kastes-->
+            <!--meklēt-->
+            <div class="col">
+               <input type="text" id="mekletKlasi" >telpas nr.</input>
+           </div>
+           <!--čekboksi-->
+            
+           <div class="col">
+				<input type="checkbox" id="datori" checked>ir datori</input><br>
+				<input type="checkbox" id="projektors">ir projektors</input>
+			</div>
+			<div class="col">
+				<input type="checkbox" id="skandas">ir skandas</input><br>
+				<input type="checkbox" id="kopetajs">ir kopētājs</input>
+			</div>
+        </div>
+        <br>
+        <hr></hr>
+        <input type="button" id="aizpildit" onclick="klasesTehnikaf()" value="meklē atlasīto">
+            <!--tabula-->
+            <table>
+                <thead>                          
+					<tr>
+						<th>Kabineta Nr.</th>
+						<th>Projektors</th>
+						<th>Datoru skaits</th>
+						<th>Skandas</th>
+						<th>Informācija</th>
+					</tr>
+                </thead>
+                <tbody id="rinda">
+                </tbody>
+            </table>
+     <!-- -->
+    <script>
+        foot();
+		klasesTehnikaf();
+    </script>
+</body>
+
+</html>         

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Skolas datortehnikas uzskaite-visas tehnika</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel='stylesheet' href='static/css/style.css'>
+		<script src='static/js/main.js'></script>
+	</head>
+	<body>
+		<script>
+			head("Visas tehnikas datubāze", "/admin");
+		</script>
+
+    <!-- -->
+    <div class="row">
+        <div class="colUz3">
+            <select id="mySelect" onchange="meklet(0, 'mySelect')">
+                <option disabled selected hidden></option>
+                <option value="">Viss saraksts</option>
+                <option value="printeris">printeris</option>
+                <option value="dators">dators</option>
+                <option value="tumbas">tumbas</option>
+            </select>
+
+            <p id="demo"></p>
+            <!--*************************** -->
+        </div>
+
+        <div class="colUz3">
+            <input type="text" placeholder="Mekēt pēc inventāra numura" id="myInput" onkeyup="meklet(1,'myInput')">
+        </div>
+        <div class="colUz3">
+            <a class="button" href="/admin/pievienot">pievienot tehniku</a>
+        </div>
+    </div>
+    <!-- -->
+    <hr></hr>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Tips</th>
+                <th>inventāra nr.</th>
+                <th>Kabinets</th>
+                <th>Informācija</th>
+            </tr>
+        </thead>
+        <tbody id="rinda"></tbody>
+    </table>
+    <script>
+        foot();
+        raditVisasTehnikasDB();
+    </script>
+</body>
+</html>

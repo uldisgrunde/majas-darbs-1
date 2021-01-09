@@ -1,0 +1,27 @@
+{
+    "dati": [
+        {
+            "id": "1",
+            "Tips ": "printeris ",
+            "Inventāra Nr. ": "1239-554 ",
+            "Kabinets ": "12",
+            "Apraksts ": "Nomainīt kātridžu ",
+            "Statuss": "Izpildīts "
+        },
+        {
+            "id": "2",
+            "Tips ": "dators ",
+            "Inventāra Nr. ": "1239-556 ",
+            "Kabinets ": "13",
+            "Apraksts ": "Samainīt barošanas vadu ",
+            "Statuss": "Neizpildīts"
+        },
+        {
+            "id": "3",
+            "Tips ": "Skandas ",
+            "Inventāra Nr. ": "1239-551 ",
+            "Kabinets ": "13",
+            "Apraksts ": "Salabot vadu ",
+            "Statuss": "Risinās"
+        }
+    ]

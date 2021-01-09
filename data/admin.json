@@ -1,0 +1,39 @@
+{
+    "admin": [
+        {
+            "id": "1",
+            "nik": "Armands",
+            "pwd": "Sdnamra"
+        },
+        {
+            "id": "2",
+            "nik": "Gundega",
+            "pwd": "Agednug"
+        },
+        {
+            "id": "3",
+            "nik": "Andrejs",
+            "pwd": "Sjerdna"
+        },
+        {
+            "id": "4",
+            "nik": "Andris",
+            "pwd": "Sirdna"
+        },
+        {
+            "id": "5",
+            "nik": "Biruta",
+            "pwd": "Aturib"
+        },
+        {
+            "id": "6",
+            "nik": "Iveta",
+            "pwd": "Atevi"
+        },
+        {
+            "id": "7",
+            "nik": "Uldis",
+            "pwd": "Sidlu"
+        }
+    ]
+    }

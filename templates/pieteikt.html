@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Skolas datortehnikas uzskaite-pieteikt problēmu</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel='stylesheet' href='static/css/style.css'>
+		<script src='static/js/main.js'></script>
+	</head>
+	<body>
+		<script>
+			head("Pieteikt datortehnikas problēmu","/");
+		</script>
+    <!-- -->
+    <form>
+	<table>
+        <thead>
+            <tr>
+                <th colspan=2>Tips<br>
+					<select id="myType" onchange ="meklet(1, this.id)";>
+						<option value="">Viss saraksts</option>
+
+					</select>
+				</th>
+                <th>Inventāra Nr.<br>
+					<input type="text" placeholder="Inventāra numura" id="myNum" onkeyup="meklet(2,this.id)">
+				</th>
+                <th>Kabinets<br>
+					<select id="myCab" onchange ="meklet(3, this.id)" alt="Mekēt pēc kabineta">
+						<option value="">Viss saraksts</option>
+					</select>
+				</th>
+            </tr>
+        </thead>
+		<tbody id="myTable">
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>Printeris</td>
+				<td>1239-554</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>Dators</td>
+				<td>1239-556</td>
+				<td>13</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>Skeneris</td>
+				<td>1239-551</td>
+				<td>13</td>
+			</tr>
+
+		</tbody>
+		<thead>
+			<tr>
+				<td colspan=4>Problēma:<textarea name=""  rows="1" cols="50"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan=4><input type="button"  class="button" value="Pieteikt" onclick=""></td>
+			</tr>
+		</thead>
+    </table>
+</form>
+    <!-- -->
+    <script>
+        foot();
+		getList("unity_type","myType", "");
+		getList("room","myCab", "");
+	</script>
+</body>
+
+</html>

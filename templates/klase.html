@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <title>Skolas datortehnikas uzskaite-kabineta tehnika</title>
+        <link rel='stylesheet' href='static/css/style.css'>
+        <script src='static/js/main.js'></script>
+	</head>
+	<body>
+		<script>
+			let kab=findGetParameter("k");// kosaka kabinetu
+			head(kab+". klasē pieejamā tehnika","/klases");
+		</script>
+		<!-- -->
+		<hr></hr>
+			<table>
+				<thead>
+					<th>Iekārtas</th>
+					<th>Pieejamība</th>
+					<th>Bojājumi</th>
+					<th>Apraksts</th>
+				</thead>
+				<tbody id="rinda">
+				</tbody>
+			</table>
+		<!-- -->
+		<script>
+			foot();
+			getData("klase_old","rinda",["name","count","bojats","desk"],'state("rinda")');
+		</script>
+	</body>
+</html>

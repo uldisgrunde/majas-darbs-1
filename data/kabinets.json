@@ -1,0 +1,20 @@
+{
+	"dati":[
+		{
+			"kab":"201",
+			"proj":1,
+			"datori":3,
+			"print":1,
+			"skandas":1,
+			"ruteris":1
+		},
+		{
+			"kab":"202",
+			"proj":1,
+			"datori":15,
+			"print":1,
+			"skandas":0,
+			"ruteris":0
+		}
+	]
+}

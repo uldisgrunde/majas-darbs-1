@@ -1,0 +1,24 @@
+{
+	"dati": [
+		{
+		    "id": "1",
+		    "name": "201",
+		    "note": "Direktores kabinets"
+		},
+		{
+		    "id": "2",
+		    "name": "202",
+		    "note": "Sekretāre"
+		},
+		{
+		    "id": "3",
+		    "name": "401",
+		    "note": "Programēšanas kabinets"
+		},
+		{
+		    "id": "4",
+		    "name": "402",
+		    "note": "Informātikas kabinets"
+		}
+	]
+}

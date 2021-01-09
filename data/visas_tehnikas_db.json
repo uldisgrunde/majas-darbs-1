@@ -1,0 +1,118 @@
+{
+    "dati": [
+        {
+            "id": "1",
+            "tips": "dators ",
+            "inventaraNr": "1239-540 ",
+            "name": "201"
+        },
+        {
+            "id": "2",
+            "tips": "dators ",
+            "inventaraNr": "1239-541 ",
+            "name": "401"
+        },
+        {
+            "id": "3",
+            "tips": "dators ",
+            "inventaraNr": "1239-542 ",
+            "name": "202"
+        },
+        {
+            "id": "4",
+            "tips": "dators ",
+            "inventaraNr": "1239-543 ",
+            "name": "402"
+        },
+        {
+            "id": "5",
+            "tips": "dators ",
+            "inventaraNr": "1239-544 ",
+            "name": "202"
+        },
+        {
+            "id": "6",
+            "tips": "dators ",
+            "inventaraNr": "1239-545 ",
+            "name": "401"
+        },
+        {
+            "id": "7",
+            "tips": "dators ",
+            "inventaraNr": "1239-546 ",
+            "name": "402"
+        },
+        {
+            "id": "8",
+            "tips": "dators ",
+            "inventaraNr": "1239-547 ",
+            "name": "401"
+        },
+        {
+            "id": "9",
+            "tips": "dators ",
+            "inventaraNr": "1239-548 ",
+            "name": "402"
+        },
+        {
+            "id": "10",
+            "tips": "dators ",
+            "inventaraNr": "1239-549 ",
+            "name": "401"
+        },
+        {
+            "id": "11",
+            "tips": "dators ",
+            "inventaraNr": "1239-550 ",
+            "name": "402"
+        },
+        {
+            "id": "12",
+            "tips": "dators ",
+            "inventaraNr": "1239-551 ",
+            "name": "401"
+        },
+        {
+            "id": "13",
+            "tips": "dators ",
+            "inventaraNr": "1239-552 ",
+            "name": "402"
+        },
+        {
+            "id": "14",
+            "tips": "dators ",
+            "inventaraNr": "1239-553 ",
+           "name": "401"
+        },
+        {
+            "id": "15",
+            "tips": "dators ",
+            "inventaraNr": "1239-554 ",
+            "name": "402"
+        },
+        {
+            "id": "16",
+            "tips": "projektors ",
+            "inventaraNr": "1239-654 ",
+            "name": "202"
+        },
+        {
+            "id": "17",
+            "tips": "skandas ",
+            "inventaraNr": "1239-754 ",
+            "name": "402"
+        },
+        {
+            "id": "18",
+            "tips": "skandas ",
+            "inventaraNr": "1239-754 ",
+            "name": "401"
+        },
+        {
+            "id": "19",
+            "tips": "projektors ",
+            "inventaraNr": "1239-754 ",
+            "name": "401"
+        }
+    ]
+}

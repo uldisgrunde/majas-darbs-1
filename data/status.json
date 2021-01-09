@@ -1,0 +1,20 @@
+{
+	"dati":[
+		{
+			"id": "1",
+			"name": "Neizpildīts"
+		},
+		{
+			"id": "2",
+			"name": "Risinās"
+		},
+		{
+			"id": "3",
+			"name": "Izpildīts"
+		},
+		{
+			"id": "4",
+			"name": "Noraidīts"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+    "dati": [
+        {
+            "id": "1",
+            "name": "printeris ",
+            "invNr": "1239-554 ",
+            "room": "12",
+            "note": "Nomainīt kātridžu ",
+            "status": "Izpildīts"
+        },
+        {
+            "id": "2",
+            "name": "dators ",
+            "invNr": "1239-556 ",
+            "room": "13",
+            "note": "Samainīt barošanas vadu ",
+            "status": "Neizpildīts"
+        },
+        {
+            "id": "3",
+            "name": "Skandas ",
+            "invNr": "1239-551 ",
+            "room": "13",
+            "note": "Salabot vadu ",
+            "status": "Risinās"
+        }
+    ]
+}`
